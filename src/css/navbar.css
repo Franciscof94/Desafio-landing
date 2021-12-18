@@ -1,0 +1,38 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    height: 70px; 
+    box-shadow:0px 1px 10px #c5bcc5;
+}
+
+.logo{
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a{
+    color: #1c3144;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.iconContainer {
+    font-size: 19px;
+    cursor: pointer;
+    display: flex;
+}
+
+

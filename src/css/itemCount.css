@@ -1,0 +1,19 @@
+.countContainer{
+    margin-top: 20px;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+}
+
+.count > .btn{
+    color: #2A3C4E;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(184, 215, 241);
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    cursor: pointer;
+}
